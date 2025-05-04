@@ -3,160 +3,83 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mauro Curado - Folha de Pagamento</title>
+  <title>Serviços de Folha de Pagamento</title>
   <style>
-    :root {
-      --primary: #007a78;
-      --accent: #00d9b2;
-      --white: #fff;
-      --gray: #f0f0f0;
-      --dark: #2c3e50;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: var(--gray);
-      color: var(--dark);
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #007a78;
+      color: white;
     }
 
-    header {
-      background: url('https://images.unsplash.com/photo-1605902711622-cfb43c4437d4?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
-      color: white;
-      padding: 80px 20px;
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
       text-align: center;
     }
 
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      margin-bottom: 20px;
-    }
-
-    .cta-button {
-      padding: 12px 24px;
-      background: var(--accent);
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
+    h1 {
+      font-size: 24px;
+      margin-top: 20px;
       font-weight: bold;
-      transition: background 0.3s;
     }
 
-    .cta-button:hover {
-      background: #00bfa0;
-    }
-
-    .section {
-      max-width: 1000px;
-      margin: auto;
-      padding: 50px 20px;
+    .descricao {
+      margin: 20px 0;
+      font-size: 16px;
     }
 
     .card {
       background: white;
+      color: #007a78;
       border-radius: 10px;
-      padding: 30px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      margin-bottom: 40px;
-    }
-
-    h2 {
-      color: var(--primary);
-      margin-bottom: 15px;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    .contact {
-      background: var(--primary);
-      color: white;
-      text-align: center;
-      padding: 40px 20px;
-    }
-
-    .contact a {
-      color: white;
+      padding: 15px;
       font-weight: bold;
+      margin: 20px 0;
+      display: inline-block;
+    }
+
+    .contato {
+      margin-top: 20px;
+    }
+
+    .contato p {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+
+    .whatsapp {
+      color: white;
       text-decoration: none;
+      font-size: 18px;
       display: inline-flex;
       align-items: center;
       gap: 8px;
     }
 
-    .contact img {
+    .whatsapp img {
       width: 20px;
-      vertical-align: middle;
-    }
-
-    footer {
-      background: #004744;
-      color: white;
-      text-align: center;
-      padding: 15px;
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
-
-      .section {
-        padding: 30px 15px;
-      }
+      height: 20px;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <h1>TERCEIRIZE SUA FOLHA DE PAGAMENTO COM SEGURANÇA E PRECISÃO!</h1>
+    <p class="descricao">Mais de 15 anos de experiência em DP. Atendimento completo para pequenas e médias empresas.</p>
 
-<header>
-  <h1>Especialista em Folha de Pagamento</h1>
-  <p>Terceirize com segurança, agilidade e precisão. Atendimento completo e sigiloso para sua empresa.</p>
-  <a href="https://wa.me/5517988349176" class="cta-button" target="_blank">Solicitar Orçamento</a>
-</header>
+    <div class="card">MAURO CURADO<br/>ESPECIALISTA EM DEPARTAMENTO PESSOAL</div>
 
-<section class="section">
-  <div class="card">
-    <h2>Quem Sou</h2>
-    <p>Profissional com mais de 15 anos de experiência em Departamento Pessoal, oferecendo soluções práticas e personalizadas para pequenas e médias empresas.</p>
+    <div class="contato">
+      <p>
+        <a class="whatsapp" href="https://wa.me/5517988349176" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"/>
+          (17) 98834-9176
+        </a>
+      </p>
+      <p>maurocurado@yahoo.com.br</p>
+    </div>
   </div>
-
-  <div class="card">
-    <h2>Serviços Oferecidos</h2>
-    <ul>
-      <li>Folha de pagamento mensal</li>
-      <li>Admissões, rescisões e férias</li>
-      <li>eSocial e encargos</li>
-      <li>Atendimento via WhatsApp e email</li>
-    </ul>
-  </div>
-</section>
-
-<section class="contact">
-  <h2>Entre em Contato</h2>
-  <p>
-    <a href="https://wa.me/5517988349176" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
-      (17) 98834-9176
-    </a>
-  </p>
-  <p>maurocurado@yahoo.com.br</p>
-</section>
-
-<footer>
-  &copy; 2025 Mauro Curado - Todos os direitos reservados.
-</footer>
-
 </body>
 </html>

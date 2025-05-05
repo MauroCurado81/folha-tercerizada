@@ -10,7 +10,7 @@
       font-family: Arial, sans-serif;
       background: url('https://aberturasimples.com.br/wp-content/uploads/2019/09/Folha-de-pagamento.jpg') no-repeat center center fixed;
       background-size: cover;
-      color: white;
+      color: #333;
     }
 
     .container {
@@ -18,30 +18,39 @@
       margin: auto;
       padding: 20px;
       text-align: center;
-      background-color: rgba(0, 122, 120, 0.9);
+      background-color: rgba(58, 122, 120, 0.95);
       border-radius: 12px;
       margin-top: 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
 
     h1 {
       font-size: 24px;
       margin-top: 20px;
       font-weight: bold;
+      color: #f8f9fa;
     }
 
     .descricao {
       margin: 20px 0;
       font-size: 16px;
+      color: #e9ecef;
     }
 
     .card {
-      background: white;
-      color: #007a78;
+      background: #f8f9fa;
+      color: #3a7a78;
       border-radius: 10px;
       padding: 15px;
       font-weight: bold;
       margin: 20px 0;
       display: inline-block;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      background: #a7d8d6;
+      transform: translateY(-2px);
     }
 
     .contato {
@@ -54,12 +63,25 @@
     }
 
     .whatsapp, .email, .social {
-      color: white;
+      color: #f8f9fa;
       text-decoration: none;
       font-size: 18px;
       display: inline-flex;
       align-items: center;
       gap: 8px;
+      transition: color 0.3s ease;
+    }
+
+    .whatsapp:hover {
+      color: #25d366;
+    }
+
+    .email:hover {
+      color: #a7d8d6;
+    }
+
+    .social:hover {
+      opacity: 0.8;
     }
 
     .whatsapp img, .email img, .social img {
@@ -79,7 +101,7 @@
   <div class="container">
     <h1>TERCEIRIZE SUA FOLHA DE PAGAMENTO COM SEGURANÇA E PRECISÃO!</h1>
     <p class="descricao">Mais de 15 anos de experiência em DP.</p> 
-    <p>Atendimento completo para pequenas e médias empresas.</p>
+    <p class="descricao">Atendimento completo para pequenas e médias empresas.</p>
 
     <div class="card">MAURO CURADO</div>
     
